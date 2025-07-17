@@ -28,9 +28,9 @@ increament.addEventListener("click", ()=>{
     count.innerHTML = startvalue
 })
 
-let start = 0;
+
 reset.addEventListener("click", () =>{
-    start
-    count.innerHTML = start
+    startvalue= 0
+    count.innerHTML = startvalue
 })
 
