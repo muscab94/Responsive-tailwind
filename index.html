@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header -->
+     <div class="flex justify-between bg-green-200 h-[85px]">
+        <h1 class="text-4xl pl-10 pt-5 font-semibold">Company</h1>
+        <i id="icone1" class="fa-solid fa-bars text-3xl sm:hidden ml-40 mt-8"></i>
+        <i id="icone2" class="fa-solid fa-xmark text-4xl  sm:hidden hidden   -mr-32 mt-8"></i>
+        <div class="sm:block hidden mt-5 ml-5 text-2xl " >
+            <ul class="flex gap-10 ">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+        </div>
+        <div class="relative mr-8">
+        <i class="fa-solid fa-cart-shopping mt-5  sm:block text-2xl -ml-20  "></i> <span id="count" class="text-2xl  sm:block absolute right-10 -top-1  "  >0</span>
+        </div>
+     </div>
+
+      <!-- Duplicate -->
+       <div id="menu" class=" sm:hidden hidden bg-slate-500 h-[100px] ml-48 mr-0  -pt-1 text-center text-white text-2xl " >
+            <ul class=" gap-10 ">
+                <a  href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+        </div>
+
+          
+        <!-- section1 -->
+         <div class="  hidden  sm:flex mt-20 ml-20">
+            <div class="w-[41%]">
+                <h1 class="  font-semibold text-5xl">Best Place For Shoping in Your Area</h1>
+                <p class="mt-7 w-[96%] text-2xl text-gray-500">We got you anything that you need. visit us any where and any time</p>
+                <button id="increament" class="px-10 bg-green-500 py-4 mt-9">Expoler More</button>
+                <button id="reset" class="px-10 bg-red-500 py-4 ml-4 mt-9">reset</button>
+            </div>
+            <img class="w-[35%] h-[400px] ml-32" src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?_gl=1*fbh007*_ga*MTkyMjk5MzMzMy4xNzQ3NjkzMTQ2*_ga_8JE65Q40S6*czE3NTI3NzMyNDkkbzg3JGcxJHQxNzUyNzczMjc3JGozMiRsMCRoMA.." alt="">
+         </div>
+
+          <!-- Duplicate Section1 -->
+        <div class="sm:hidden    mt-20 ml-10">
+            <div class="w-[90%]">
+                <h1 class="  font-semibold text-3xl">Best Place For Shoping in Your Area</h1>
+                <p class="mt-7 w-[96%] text-2xl text-gray-500">We got you anything that you need. visit us any where and any time</p>
+                <button id="increament" class="px-10 bg-green-500 py-4 mt-9">Expoler More</button>
+                <button id="reset" class="px-10 bg-red-500  ml-4 py-4 mt-9">reset</button>
+            </div>
+            <img class="w-[65%] h-[200px] mt-10 mb-10 ml-22" src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?_gl=1*fbh007*_ga*MTkyMjk5MzMzMy4xNzQ3NjkzMTQ2*_ga_8JE65Q40S6*czE3NTI3NzMyNDkkbzg3JGcxJHQxNzUyNzczMjc3JGozMiRsMCRoMA.." alt="">
+         </div>
+
+
+        <script src="main.js"></script>
+
+</body>
+</html>
